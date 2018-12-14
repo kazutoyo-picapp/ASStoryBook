@@ -45,11 +45,11 @@ class ProfileNode: ASDisplayNode {
 }
 
 extension ProfileNode {
-    static var usernameAttr: [NSAttributedStringKey: Any] {
+    static var usernameAttr: [NSAttributedString.Key: Any] {
         return [.font: UIFont.systemFont(ofSize: 15.0, weight: .bold)]
     }
     
-    static var bioAttr: [NSAttributedStringKey: Any] {
+    static var bioAttr: [NSAttributedString.Key: Any] {
         return [.font: UIFont.systemFont(ofSize: 12.0, weight: .light)]
     }
 }

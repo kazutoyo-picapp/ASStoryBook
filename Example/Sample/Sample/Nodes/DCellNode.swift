@@ -40,11 +40,11 @@ class DCellNode: ASCellNode {
 
 extension DCellNode {
     
-    static var smallTitleAttr: [NSAttributedStringKey: Any] {
+    static var smallTitleAttr: [NSAttributedString.Key: Any] {
         return [.font: UIFont.systemFont(ofSize: 20.0)]
     }
     
-    static var titleAttr: [NSAttributedStringKey: Any] {
+    static var titleAttr: [NSAttributedString.Key: Any] {
         return [.font: UIFont.systemFont(ofSize: 40.0)]
     }
 }

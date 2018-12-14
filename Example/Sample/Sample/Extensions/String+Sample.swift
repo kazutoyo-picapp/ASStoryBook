@@ -3,7 +3,7 @@ import UIKit
 
 extension String {
     typealias AttrText = NSAttributedString
-    typealias Style = [NSAttributedStringKey: Any]
+    typealias Style = [NSAttributedString.Key: Any]
     
     func attrText(_ attr: Style) -> AttrText{
         return AttrText(string: self, attributes: attr)

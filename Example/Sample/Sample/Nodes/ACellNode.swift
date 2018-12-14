@@ -27,7 +27,7 @@ class ACellNode: ASCellNode {
 }
 
 extension ACellNode {
-    static var titleAttr: [NSAttributedStringKey: Any] {
+    static var titleAttr: [NSAttributedString.Key: Any] {
         return [.font: UIFont.systemFont(ofSize: 15.0)]
     }
 }

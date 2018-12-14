@@ -39,11 +39,11 @@ class CCellNode: ASCellNode {
 }
 
 extension CCellNode {
-    static var titleAttr: [NSAttributedStringKey: Any] {
+    static var titleAttr: [NSAttributedString.Key: Any] {
         return [.font: UIFont.systemFont(ofSize: 15.0)]
     }
     
-    static var descAttr: [NSAttributedStringKey: Any] {
+    static var descAttr: [NSAttributedString.Key: Any] {
         return [.font: UIFont.systemFont(ofSize: 30.0)]
     }
 }

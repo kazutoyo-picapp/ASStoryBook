@@ -34,11 +34,11 @@ class BCellNode: ASCellNode {
 }
 
 extension BCellNode {
-    static var titleAttr: [NSAttributedStringKey: Any] {
+    static var titleAttr: [NSAttributedString.Key: Any] {
         return [.font: UIFont.systemFont(ofSize: 20.0)]
     }
     
-    static var descAttr: [NSAttributedStringKey: Any] {
+    static var descAttr: [NSAttributedString.Key: Any] {
         return [.font: UIFont.systemFont(ofSize: 15.0)]
     }
 }

@@ -167,7 +167,7 @@ private final class ASStoryBookHomeCellNode: ASCellNode {
                                  child: titleOverlayedImageLayout)
     }
     
-    static var titleAttr: [NSAttributedStringKey: Any] {
+    static var titleAttr: [NSAttributedString.Key: Any] {
         return [.font: UIFont.systemFont(ofSize: 30.0, weight: .bold),
                 .foregroundColor: UIColor.white]
     }
